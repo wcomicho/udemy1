@@ -1,15 +1,40 @@
 {
-
-    "users":[
-        {"id":"01","firstName":"Clark","age":20},
-        {"id":"02","firstName":"Bruce","age":25},
-        {"id":"03","firstName":"Diana","age":23},
-        {"id":"04","firstName":"Barry","age":21}
-    ],
-    "admins":[
-        {"id":"01","firstName":"Clark","age":20}
-    ]
-
-
-
+  "users": [
+    {
+      "id": "01",
+      "firstName": "Clark",
+      "age": 20,
+      "companyId": "001"
+    },
+    {
+      "id": "02",
+      "firstName": "Bruce",
+      "age": 25,
+      "companyId": "002"
+    },
+    {
+      "id": "03",
+      "firstName": "Diana",
+      "age": 23,
+      "companyId": "002"
+    },
+    {
+      "id": "04",
+      "firstName": "Barry",
+      "age": 23,
+      "companyId": "001"
+    }
+  ],
+  "companies": [
+    {
+      "id": "001",
+      "name": "Apple",
+      "description": "iphone"
+    },
+    {
+      "id": "002",
+      "name": "Google",
+      "description": "search"
+    }
+  ]
 }
